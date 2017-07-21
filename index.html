@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <title>Send Form</title>
+</head>
+<body>
+   
+    
+     <div class="form-container">
+         <div class="form-container_info">
+           <img class="form-container_info_logo" src="img/logo.png">
+           <h2 class="form-container_title">Zadzwoń już teraz </h2>
+           <p class="form-container_number">+48 695 278 518</p>    
+           <p class="form-container_number">+48 695 270 472</p>  
+         
+         <h2 class="form-container_title">English ? Call us </h2>
+         <p class="form-container_number">+48 695 278 518</p>  
+         </div>
+         
+         <div class="form-container_inputs">
+             <h2 class="font-container_title--right">Umów się na spotkanie</h2>
+             
+             <form id="sendform">
+                 <input type="text" name="name-surname" placeholder="Imię" id="name" > <p class="valid"></p>
+                 <input type="text" name="name-surname" placeholder="Nazwisko" id="surname" ><p class="valid"></p>
+                 <input type="tel" name="pass" placeholder="Telefon" id="phone" ><p class="valid" ></p>
+                 <input type="email" name="mail" placeholder="E-Mail" id="mail" ><p class="valid"></p>
+                 
+          <label> <input type="checkbox" name="agreement" required>Wyrażam zgodę na przetwarzanie moich danych
+              osobowych.<br>Zapoznałem się z regulaminem.</label>
+             <span class="button-wrapper">
+                 
+        
+               <button class='sendbutton' type="button" form="sendform">Wyślij</button>
+                    </span>
+             </form>
+         </div>
+         
+     </div> 
+     <script src="script.js"></script>
+</body>
+</html>
